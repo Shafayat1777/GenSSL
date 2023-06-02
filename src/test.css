@@ -1,0 +1,251 @@
+/* Main Table */
+.Main {
+    margin: 0 auto;
+  }
+
+
+/* Style the h2 element */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  /* Center the h2 element */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .center h2 {
+    margin: 0;
+  }
+  
+
+/* RootCa */
+.rootCa {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .rootCa h3 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .rootCa label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .rootCa select,
+  .rootCa input[type="text"],
+  .rootCa input[type="number"],
+  .rootCa input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .rootCa input[type="text"]:focus,
+  .rootCa input[type="number"]:focus,
+  .rootCa input[type="password"]:focus,
+  .rootCa select:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 5px #2ecc71;
+  }
+  
+  .rootCa hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  .rootCa Table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .rootCa Table td,
+  .rootCa Table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .rootCa Table th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+
+
+/* SubCA */
+.subCa {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .subCa h3 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .subCa label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .subCa select,
+  .subCa input[type="text"],
+  .subCa input[type="number"],
+  .subCa input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .subCa input[type="text"]:focus,
+  .subCa input[type="number"]:focus,
+  .subCa input[type="password"]:focus,
+  .subCa select:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 5px #2ecc71;
+  }
+  
+  .subCa hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  .subCa Table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .subCa Table td,
+  .subCa Table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .subCa Table th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+
+
+/* SubCA */
+.serverCa {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .serverCa h3 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .serverCa label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .serverCa select,
+  .serverCa input[type="text"],
+  .serverCa input[type="number"],
+  .serverCa input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .serverCa input[type="text"]:focus,
+  .serverCa input[type="number"]:focus,
+  .serverCa input[type="password"]:focus,
+  .serverCa select:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 5px #2ecc71;
+  }
+  
+  .serverCa hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  .serverCa Table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .serverCa Table td,
+  .serverCa Table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .serverCa Table th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+
+/* Submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+/* Reset */
+  input[type="reset"] {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #333333;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+  }
